@@ -164,7 +164,7 @@ arr =  [game_hash[:away][:players], game_hash[:home][:players]]
 arr.each { |i|
   i.each { |j|
     if j[0] == name
-      return j[1]
+      return j
     end
   }
 }
